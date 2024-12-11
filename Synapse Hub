@@ -36,12 +36,7 @@ Rayfield:Notify({
 local MurdersVSSheriffs = Tab:CreateButton({
    Name = "[x2] Murderers VS Sheriffs Duels",
    Callback = function()
-Rayfield:Notify({
-   Title = "Executed!",
-   Content = "<3",
-   Duration = 3,
-   Image = "check",
-})
+
    loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubMurdervssheriff"))()
    Rayfield:Destroy()
    end,
@@ -51,12 +46,7 @@ Rayfield:Notify({
    local SheepTycoon = Tab:CreateButton({
    Name = "[Update2] Sheep Tycoon 🐑(Inf Wool)",
    Callback = function()
-   Rayfield:Notify({
-   Title = "Executed!",
-   Content = "<3",
-   Duration = 3,
-   Image = "check",
-})
+   
         local function getWool()
             local args = {
                 [1] = 17,
@@ -79,12 +69,7 @@ Rayfield:Notify({
  local TheImpossibleObby = Tab:CreateButton({
    Name = "THE IMPOSSIBLE OBBY",
    Callback = function()
-Rayfield:Notify({
-   Title = "Executed!",
-   Content = "<3",
-   Duration = 3,
-   Image = "check",
-})
+
    Rayfield:Destroy()
    local teleportPositions = {
             Vector3.new(2096, 5, 4102), Vector3.new(2096, 5, 3556), Vector3.new(2093, 5, 2969),
@@ -118,12 +103,7 @@ Rayfield:Notify({
 local DownhillMadness = Tab:CreateButton({
    Name = "Downhill Madness (FE OP)",
    Callback = function()
-Rayfield:Notify({
-   Title = "Executed!",
-   Content = "<3",
-   Duration = 3,
-   Image = "check",
-})
+
        Rayfield:Destroy()
    loadstring(game:HttpGet("https://gist.githubusercontent.com/dark-modz/5aed2fbe731daca594361da9a4944e70/raw/60b8bae3946abf15682c9e324d1fefb6a31cb81d/fix", true)) ()
    
@@ -132,12 +112,7 @@ Rayfield:Notify({
   local RampJumping = Tab:CreateButton({
    Name = "Ramp Jumping - On Sports Cars (FE OP)",
    Callback = function()
-Rayfield:Notify({
-   Title = "Executed!",
-   Content = "<3",
-   Duration = 3,
-   Image = "check",
-})
+
    Rayfield:Destroy()
 loadstring(game:HttpGet("https://gist.githubusercontent.com/dark-modz/5aed2fbe731daca594361da9a4944e70/raw/60b8bae3946abf15682c9e324d1fefb6a31cb81d/fix", true)) ()
    end,
@@ -146,12 +121,7 @@ loadstring(game:HttpGet("https://gist.githubusercontent.com/dark-modz/5aed2fbe73
 local TheDropper = Tab:CreateButton({
    Name = "The Dropper ✨ [130+ LEVELS!]",
    Callback = function()
-Rayfield:Notify({
-   Title = "Executed!",
-   Content = "<3",
-   Duration = 3,
-   Image = "check",
-})
+
    Rayfield:Destroy()
 local workspace = game:GetService("Workspace")
 local player = game.Players.LocalPlayer
@@ -172,12 +142,7 @@ while wait(2) do
    local Arsenal = Tab:CreateButton({
    Name = "[☢️] Arsenal",
    Callback = function()
-Rayfield:Notify({
-   Title = "Executed!",
-   Content = "<3",
-   Duration = 3,
-   Image = "check",
-})
+
    Rayfield:Destroy()
 --[[
 	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
