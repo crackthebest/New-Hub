@@ -47,19 +47,7 @@ local MurdersVSSheriffs = Tab:CreateButton({
    Name = "[Update2] Sheep Tycoon 🐑(Inf Wool)",
    Callback = function()
    Rayfield:Destroy()
-        local function getWool()
-            local args = {
-                [1] = 17,
-                [2] = Vector3.new(-162.36593627929688, 3.311232566833496, 938.9034423828125)
-            }
-            game:GetService("ReplicatedStorage").Signals.RemoteEvents.GetWoolRemote:FireServer(unpack(args))
-        end
-
-        while true do
-            getWool()
-            
-            wait()
-        end
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/crackthebest/New-Hub/refs/heads/main/Sheep%20Tycoon"))()
     
    
    end,
