@@ -8,8 +8,7 @@
 
         while true do
             getWool()
-            
-            wait()
+        wait()
         end
     
    
