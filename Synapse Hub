@@ -46,7 +46,7 @@ local MurdersVSSheriffs = Tab:CreateButton({
    local SheepTycoon = Tab:CreateButton({
    Name = "[Update2] Sheep Tycoon 🐑(Inf Wool)",
    Callback = function()
-   
+   Rayfield:Destroy()
         local function getWool()
             local args = {
                 [1] = 17,
@@ -57,7 +57,7 @@ local MurdersVSSheriffs = Tab:CreateButton({
 
         while true do
             getWool()
-            Rayfield:Destroy()
+            
             wait()
         end
     
