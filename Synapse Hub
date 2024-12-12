@@ -107,3 +107,11 @@ local TheDropper = Tab:CreateButton({
    loadstring(game:HttpGet('http://scripts.projectauto.xyz/AutoRobV5'))()
    end,
    })
+
+  local CarCrushers2 = Tab:CreateButton({
+   Name = "Car Crushers 2 ⌛ Physics Simulation",
+   Callback = function()
+   Rayfield:Destroy()
+   loadstring(game:HttpGet('https://whimper.xyz/cathub.lua'))()
+   end,
+   })
